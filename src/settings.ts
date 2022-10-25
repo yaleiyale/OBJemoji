@@ -24,11 +24,11 @@ export class EmojiPluginSettingTab extends PluginSettingTab {
 
 		containerEl.empty();
 
-		containerEl.createEl('h2', { text: 'Emoji Shortcodes Plugin' });
+		containerEl.createEl('h2', { text: 'OBJemoji' });
 
 		new Setting(containerEl)
 			.setName('Immediate Emoji Replace')
-			.setDesc('If this is turned on, Emoji shortcodes will be immediately replaced after typing. Otherwise they are still stored as a shortcode and you only see the Emoji in Preview Mode.')
+			.setDesc('If this is turned on, OBJemoji will be immediately replaced after typing. Otherwise they are still stored as a shortcode and you only see the Emoji in Preview Mode.')
 			.addToggle(cb => {
 				cb.setValue(this.plugin.settings.immediateReplace)
 					.onChange(async value => {
@@ -52,7 +52,7 @@ export class EmojiPluginSettingTab extends PluginSettingTab {
 			.setName('Donate')
 			.setDesc('If you like this Plugin, consider donating to support continued development:')
 			.addButton((bt) => {
-				bt.buttonEl.outerHTML = `<a href="https://ko-fi.com/phibr0"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11e22d8ff4a5b4a1b3346_Supportbutton-1.png"></a>`;
+				bt.buttonEl.outerHTML = `<a id="coffee" href="https://lestua.ml/merger"> <img src="https://res.cloudinary.com/dbbz8b3ce/image/upload/v1662123856/image_note/cedzxpfrow7ewrlkmq6d.png" alt="BuyMeACoffee" width="180"> </a>`;
 			});
 	}
 }
