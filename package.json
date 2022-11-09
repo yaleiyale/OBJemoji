@@ -1,6 +1,6 @@
 {
-  "name": "OBJemoji",
-  "version": "1.0.1",
+  "name": "objemoji",
+  "version": "1.0.2",
   "description": "This Plugin enables the use of jemoji Shortcodes :smile: based on emoji Shortcodes",
   "main": "main.js",
   "scripts": {
@@ -11,9 +11,15 @@
   "author": "yaleiyale",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.27.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
     "obsidian": "^0.16.3",
-    "typescript": "4.8.4",
-    "obsidian-plugin-cli": "^0.8.1"
+    "obsidian-plugin-cli": "^0.8.1",
+    "typescript": "*"
   },
   "dependencies": {}
 }

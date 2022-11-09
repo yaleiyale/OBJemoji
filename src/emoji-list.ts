@@ -1183,4 +1183,4 @@ export const emoji = JSON.parse(`{
   ":checkered_flag:": "🏁",
   ":triangular_flag_on_post:": "🚩",
   ":rainbow_flag:": "🏳️‍🌈"
-}`);
+}`)
