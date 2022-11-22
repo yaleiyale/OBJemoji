@@ -52,7 +52,7 @@ export class EmojiPluginSettingTab extends PluginSettingTab {
       .setName('Donate')
       .setDesc('If you like this Plugin, consider donating to support continued development:')
       .addButton((bt) => {
-        bt.buttonEl.outerHTML = '<a id="coffee" href="https://lestua.ml/merger"> <img src="https://s1.ax1x.com/2022/10/30/xIMoKU.png" alt="BuyMeACoffee" width="180"> </a>'
+        bt.buttonEl.outerHTML = '<a id="coffee" href="https://lestua.eu.org/merger"> <img src="https://s1.ax1x.com/2022/10/30/xIMoKU.png" alt="BuyMeACoffee" width="180"> </a>'
       })
   }
 }
